@@ -146,7 +146,7 @@ class Sidebar extends Component {
             <Link className="nav-link" to="/dashboard2">
               <i className="mdi mdi-television menu-icon"></i>
               <span className="menu-title">
-                <Trans>Filter by Choice</Trans>
+                <Trans>Filter by Parameters</Trans>
               </span>
             </Link>
           </li>

@@ -70,8 +70,7 @@ def hello_name():
     resp={"APIs" : {"sorted":"/getRowsSortByCol/%7B%22confirmed%22:%22ascend%22,%20%22active%22:%22ascend%22%7D", 
     "all rows":"/getRows",
     "columns info":"/getCols",
-    "total count":"/getCount",
-    "filter columns":"/getFilteredColumns/%7B%22Population%22:1%7D"}}
+    "total count":"/getCount"}}
     return jsonify(resp)
 
 if __name__ == '__main__':

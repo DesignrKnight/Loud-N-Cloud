@@ -60,11 +60,8 @@ function updateCases(districts, data) {
     }
   }
 
-  console.log(max_Vac);
-  console.log(min_Vac);
 }
 
-// function HSVtoRGB(h, s, v) {
 //     var r, g, b, i, f, p, q, t;
 //     if (arguments.length === 1) {
 //         s = h.s, v = h.v, h = h.h;
