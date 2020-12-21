@@ -445,7 +445,10 @@ class PopRenderMap extends Component {
   render() {
     return (
       <div key={this.props} id="demobox">
-        <h3>Vaccine Count Needed {this.state.vaccineCount}</h3>
+        <h3>Vaccines Needed</h3> 
+          <h6><b>Count:</b>{Math.round(this.state.vaccineCount)}</h6>
+          <h6><b>State:</b>{this.state.currentState.vaccine}</h6>
+          <h6><b>Priority:</b>{this.state.currentState.state}</h6>
         <div id="map">
           <div id="select"></div>
         </div>
